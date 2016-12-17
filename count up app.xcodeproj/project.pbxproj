@@ -1,0 +1,787 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA90A2CE1E0602CE004471FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA90A2CD1E0602CE004471FD /* AppDelegate.swift */; };
+		BA90A2D01E0602CE004471FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA90A2CF1E0602CE004471FD /* ViewController.swift */; };
+		BA90A2D31E0602CE004471FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA90A2D11E0602CE004471FD /* Main.storyboard */; };
+		BA90A2D51E0602CE004471FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA90A2D41E0602CE004471FD /* Assets.xcassets */; };
+		BA90A2D81E0602CE004471FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA90A2D61E0602CE004471FD /* LaunchScreen.storyboard */; };
+		BA90A2E31E0602CE004471FD /* count_up_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA90A2E21E0602CE004471FD /* count_up_appTests.swift */; };
+		BA90A2EE1E0602CE004471FD /* count_up_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA90A2ED1E0602CE004471FD /* count_up_appUITests.swift */; };
+		BA90A2F31E0602CE004471FD /* count up app WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = BA90A2F21E0602CE004471FD /* count up app WatchKit App.app */; };
+		BA90A2F91E0602CE004471FD /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA90A2F71E0602CE004471FD /* Interface.storyboard */; };
+		BA90A2FB1E0602CE004471FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA90A2FA1E0602CE004471FD /* Assets.xcassets */; };
+		BA90A3021E0602CE004471FD /* count up app WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = BA90A3011E0602CE004471FD /* count up app WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BA90A3071E0602CE004471FD /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA90A3061E0602CE004471FD /* InterfaceController.swift */; };
+		BA90A3091E0602CE004471FD /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA90A3081E0602CE004471FD /* ExtensionDelegate.swift */; };
+		BA90A30B1E0602CE004471FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA90A30A1E0602CE004471FD /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA90A2DF1E0602CE004471FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA90A2C21E0602CE004471FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA90A2C91E0602CE004471FD;
+			remoteInfo = "count up app";
+		};
+		BA90A2EA1E0602CE004471FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA90A2C21E0602CE004471FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA90A2C91E0602CE004471FD;
+			remoteInfo = "count up app";
+		};
+		BA90A2F41E0602CE004471FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA90A2C21E0602CE004471FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA90A2F11E0602CE004471FD;
+			remoteInfo = "count up app WatchKit App";
+		};
+		BA90A3031E0602CE004471FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA90A2C21E0602CE004471FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA90A3001E0602CE004471FD;
+			remoteInfo = "count up app WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BA90A3121E0602CE004471FD /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				BA90A3021E0602CE004471FD /* count up app WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA90A3161E0602CE004471FD /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				BA90A2F31E0602CE004471FD /* count up app WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BA90A2CA1E0602CE004471FD /* count up app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "count up app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA90A2CD1E0602CE004471FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BA90A2CF1E0602CE004471FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BA90A2D21E0602CE004471FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA90A2D41E0602CE004471FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA90A2D71E0602CE004471FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA90A2D91E0602CE004471FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA90A2DE1E0602CE004471FD /* count up appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "count up appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA90A2E21E0602CE004471FD /* count_up_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = count_up_appTests.swift; sourceTree = "<group>"; };
+		BA90A2E41E0602CE004471FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA90A2E91E0602CE004471FD /* count up appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "count up appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA90A2ED1E0602CE004471FD /* count_up_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = count_up_appUITests.swift; sourceTree = "<group>"; };
+		BA90A2EF1E0602CE004471FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA90A2F21E0602CE004471FD /* count up app WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "count up app WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA90A2F81E0602CE004471FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		BA90A2FA1E0602CE004471FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA90A2FC1E0602CE004471FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA90A3011E0602CE004471FD /* count up app WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "count up app WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA90A3061E0602CE004471FD /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		BA90A3081E0602CE004471FD /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		BA90A30A1E0602CE004471FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA90A30C1E0602CE004471FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA90A2C71E0602CE004471FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA90A2DB1E0602CE004471FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA90A2E61E0602CE004471FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA90A2FE1E0602CE004471FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA90A2C11E0602CE004471FD = {
+			isa = PBXGroup;
+			children = (
+				BA90A2CC1E0602CE004471FD /* count up app */,
+				BA90A2E11E0602CE004471FD /* count up appTests */,
+				BA90A2EC1E0602CE004471FD /* count up appUITests */,
+				BA90A2F61E0602CE004471FD /* count up app WatchKit App */,
+				BA90A3051E0602CE004471FD /* count up app WatchKit Extension */,
+				BA90A2CB1E0602CE004471FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA90A2CB1E0602CE004471FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA90A2CA1E0602CE004471FD /* count up app.app */,
+				BA90A2DE1E0602CE004471FD /* count up appTests.xctest */,
+				BA90A2E91E0602CE004471FD /* count up appUITests.xctest */,
+				BA90A2F21E0602CE004471FD /* count up app WatchKit App.app */,
+				BA90A3011E0602CE004471FD /* count up app WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA90A2CC1E0602CE004471FD /* count up app */ = {
+			isa = PBXGroup;
+			children = (
+				BA90A2CD1E0602CE004471FD /* AppDelegate.swift */,
+				BA90A2CF1E0602CE004471FD /* ViewController.swift */,
+				BA90A2D11E0602CE004471FD /* Main.storyboard */,
+				BA90A2D41E0602CE004471FD /* Assets.xcassets */,
+				BA90A2D61E0602CE004471FD /* LaunchScreen.storyboard */,
+				BA90A2D91E0602CE004471FD /* Info.plist */,
+			);
+			path = "count up app";
+			sourceTree = "<group>";
+		};
+		BA90A2E11E0602CE004471FD /* count up appTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA90A2E21E0602CE004471FD /* count_up_appTests.swift */,
+				BA90A2E41E0602CE004471FD /* Info.plist */,
+			);
+			path = "count up appTests";
+			sourceTree = "<group>";
+		};
+		BA90A2EC1E0602CE004471FD /* count up appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BA90A2ED1E0602CE004471FD /* count_up_appUITests.swift */,
+				BA90A2EF1E0602CE004471FD /* Info.plist */,
+			);
+			path = "count up appUITests";
+			sourceTree = "<group>";
+		};
+		BA90A2F61E0602CE004471FD /* count up app WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				BA90A2F71E0602CE004471FD /* Interface.storyboard */,
+				BA90A2FA1E0602CE004471FD /* Assets.xcassets */,
+				BA90A2FC1E0602CE004471FD /* Info.plist */,
+			);
+			path = "count up app WatchKit App";
+			sourceTree = "<group>";
+		};
+		BA90A3051E0602CE004471FD /* count up app WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				BA90A3061E0602CE004471FD /* InterfaceController.swift */,
+				BA90A3081E0602CE004471FD /* ExtensionDelegate.swift */,
+				BA90A30A1E0602CE004471FD /* Assets.xcassets */,
+				BA90A30C1E0602CE004471FD /* Info.plist */,
+			);
+			path = "count up app WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA90A2C91E0602CE004471FD /* count up app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA90A3171E0602CE004471FD /* Build configuration list for PBXNativeTarget "count up app" */;
+			buildPhases = (
+				BA90A2C61E0602CE004471FD /* Sources */,
+				BA90A2C71E0602CE004471FD /* Frameworks */,
+				BA90A2C81E0602CE004471FD /* Resources */,
+				BA90A3161E0602CE004471FD /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA90A2F51E0602CE004471FD /* PBXTargetDependency */,
+			);
+			name = "count up app";
+			productName = "count up app";
+			productReference = BA90A2CA1E0602CE004471FD /* count up app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA90A2DD1E0602CE004471FD /* count up appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA90A31A1E0602CE004471FD /* Build configuration list for PBXNativeTarget "count up appTests" */;
+			buildPhases = (
+				BA90A2DA1E0602CE004471FD /* Sources */,
+				BA90A2DB1E0602CE004471FD /* Frameworks */,
+				BA90A2DC1E0602CE004471FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA90A2E01E0602CE004471FD /* PBXTargetDependency */,
+			);
+			name = "count up appTests";
+			productName = "count up appTests";
+			productReference = BA90A2DE1E0602CE004471FD /* count up appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA90A2E81E0602CE004471FD /* count up appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA90A31D1E0602CE004471FD /* Build configuration list for PBXNativeTarget "count up appUITests" */;
+			buildPhases = (
+				BA90A2E51E0602CE004471FD /* Sources */,
+				BA90A2E61E0602CE004471FD /* Frameworks */,
+				BA90A2E71E0602CE004471FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA90A2EB1E0602CE004471FD /* PBXTargetDependency */,
+			);
+			name = "count up appUITests";
+			productName = "count up appUITests";
+			productReference = BA90A2E91E0602CE004471FD /* count up appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		BA90A2F11E0602CE004471FD /* count up app WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA90A3131E0602CE004471FD /* Build configuration list for PBXNativeTarget "count up app WatchKit App" */;
+			buildPhases = (
+				BA90A2F01E0602CE004471FD /* Resources */,
+				BA90A3121E0602CE004471FD /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA90A3041E0602CE004471FD /* PBXTargetDependency */,
+			);
+			name = "count up app WatchKit App";
+			productName = "count up app WatchKit App";
+			productReference = BA90A2F21E0602CE004471FD /* count up app WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		BA90A3001E0602CE004471FD /* count up app WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA90A30F1E0602CE004471FD /* Build configuration list for PBXNativeTarget "count up app WatchKit Extension" */;
+			buildPhases = (
+				BA90A2FD1E0602CE004471FD /* Sources */,
+				BA90A2FE1E0602CE004471FD /* Frameworks */,
+				BA90A2FF1E0602CE004471FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "count up app WatchKit Extension";
+			productName = "count up app WatchKit Extension";
+			productReference = BA90A3011E0602CE004471FD /* count up app WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA90A2C21E0602CE004471FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = kameyama;
+				TargetAttributes = {
+					BA90A2C91E0602CE004471FD = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					BA90A2DD1E0602CE004471FD = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BA90A2C91E0602CE004471FD;
+					};
+					BA90A2E81E0602CE004471FD = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BA90A2C91E0602CE004471FD;
+					};
+					BA90A2F11E0602CE004471FD = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					BA90A3001E0602CE004471FD = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BA90A2C51E0602CE004471FD /* Build configuration list for PBXProject "count up app" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA90A2C11E0602CE004471FD;
+			productRefGroup = BA90A2CB1E0602CE004471FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA90A2C91E0602CE004471FD /* count up app */,
+				BA90A2DD1E0602CE004471FD /* count up appTests */,
+				BA90A2E81E0602CE004471FD /* count up appUITests */,
+				BA90A2F11E0602CE004471FD /* count up app WatchKit App */,
+				BA90A3001E0602CE004471FD /* count up app WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA90A2C81E0602CE004471FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA90A2D81E0602CE004471FD /* LaunchScreen.storyboard in Resources */,
+				BA90A2D51E0602CE004471FD /* Assets.xcassets in Resources */,
+				BA90A2D31E0602CE004471FD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA90A2DC1E0602CE004471FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA90A2E71E0602CE004471FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA90A2F01E0602CE004471FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA90A2FB1E0602CE004471FD /* Assets.xcassets in Resources */,
+				BA90A2F91E0602CE004471FD /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA90A2FF1E0602CE004471FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA90A30B1E0602CE004471FD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA90A2C61E0602CE004471FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA90A2D01E0602CE004471FD /* ViewController.swift in Sources */,
+				BA90A2CE1E0602CE004471FD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA90A2DA1E0602CE004471FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA90A2E31E0602CE004471FD /* count_up_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA90A2E51E0602CE004471FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA90A2EE1E0602CE004471FD /* count_up_appUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA90A2FD1E0602CE004471FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA90A3091E0602CE004471FD /* ExtensionDelegate.swift in Sources */,
+				BA90A3071E0602CE004471FD /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA90A2E01E0602CE004471FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA90A2C91E0602CE004471FD /* count up app */;
+			targetProxy = BA90A2DF1E0602CE004471FD /* PBXContainerItemProxy */;
+		};
+		BA90A2EB1E0602CE004471FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA90A2C91E0602CE004471FD /* count up app */;
+			targetProxy = BA90A2EA1E0602CE004471FD /* PBXContainerItemProxy */;
+		};
+		BA90A2F51E0602CE004471FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA90A2F11E0602CE004471FD /* count up app WatchKit App */;
+			targetProxy = BA90A2F41E0602CE004471FD /* PBXContainerItemProxy */;
+		};
+		BA90A3041E0602CE004471FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA90A3001E0602CE004471FD /* count up app WatchKit Extension */;
+			targetProxy = BA90A3031E0602CE004471FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA90A2D11E0602CE004471FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA90A2D21E0602CE004471FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA90A2D61E0602CE004471FD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA90A2D71E0602CE004471FD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		BA90A2F71E0602CE004471FD /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA90A2F81E0602CE004471FD /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA90A30D1E0602CE004471FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA90A30E1E0602CE004471FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA90A3101E0602CE004471FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				INFOPLIST_FILE = "count up app WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hiroki-Kameyaam.count-up-app.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		BA90A3111E0602CE004471FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				INFOPLIST_FILE = "count up app WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hiroki-Kameyaam.count-up-app.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		BA90A3141E0602CE004471FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = count_up_app_WatchKit_Extension;
+				INFOPLIST_FILE = "count up app WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hiroki-Kameyaam.count-up-app.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		BA90A3151E0602CE004471FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = count_up_app_WatchKit_Extension;
+				INFOPLIST_FILE = "count up app WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hiroki-Kameyaam.count-up-app.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		BA90A3181E0602CE004471FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "count up app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hiroki-Kameyaam.count-up-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BA90A3191E0602CE004471FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "count up app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hiroki-Kameyaam.count-up-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		BA90A31B1E0602CE004471FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "count up appTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hiroki-Kameyaam.count-up-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/count up app.app/count up app";
+			};
+			name = Debug;
+		};
+		BA90A31C1E0602CE004471FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "count up appTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hiroki-Kameyaam.count-up-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/count up app.app/count up app";
+			};
+			name = Release;
+		};
+		BA90A31E1E0602CE004471FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "count up appUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hiroki-Kameyaam.count-up-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "count up app";
+			};
+			name = Debug;
+		};
+		BA90A31F1E0602CE004471FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "count up appUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hiroki-Kameyaam.count-up-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "count up app";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA90A2C51E0602CE004471FD /* Build configuration list for PBXProject "count up app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA90A30D1E0602CE004471FD /* Debug */,
+				BA90A30E1E0602CE004471FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA90A30F1E0602CE004471FD /* Build configuration list for PBXNativeTarget "count up app WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA90A3101E0602CE004471FD /* Debug */,
+				BA90A3111E0602CE004471FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BA90A3131E0602CE004471FD /* Build configuration list for PBXNativeTarget "count up app WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA90A3141E0602CE004471FD /* Debug */,
+				BA90A3151E0602CE004471FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BA90A3171E0602CE004471FD /* Build configuration list for PBXNativeTarget "count up app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA90A3181E0602CE004471FD /* Debug */,
+				BA90A3191E0602CE004471FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BA90A31A1E0602CE004471FD /* Build configuration list for PBXNativeTarget "count up appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA90A31B1E0602CE004471FD /* Debug */,
+				BA90A31C1E0602CE004471FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BA90A31D1E0602CE004471FD /* Build configuration list for PBXNativeTarget "count up appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA90A31E1E0602CE004471FD /* Debug */,
+				BA90A31F1E0602CE004471FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA90A2C21E0602CE004471FD /* Project object */;
+}
