@@ -102,6 +102,8 @@
 		BA90A3081E0602CE004471FD /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		BA90A30A1E0602CE004471FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA90A30C1E0602CE004471FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA90A3201E0606E2004471FD /* count up app.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "count up app.entitlements"; sourceTree = "<group>"; };
+		BA90A3211E0608D2004471FD /* count up app WatchKit App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "count up app WatchKit App.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +165,7 @@
 		BA90A2CC1E0602CE004471FD /* count up app */ = {
 			isa = PBXGroup;
 			children = (
+				BA90A3201E0606E2004471FD /* count up app.entitlements */,
 				BA90A2CD1E0602CE004471FD /* AppDelegate.swift */,
 				BA90A2CF1E0602CE004471FD /* ViewController.swift */,
 				BA90A2D11E0602CE004471FD /* Main.storyboard */,
@@ -194,6 +197,7 @@
 		BA90A2F61E0602CE004471FD /* count up app WatchKit App */ = {
 			isa = PBXGroup;
 			children = (
+				BA90A3211E0608D2004471FD /* count up app WatchKit App.entitlements */,
 				BA90A2F71E0602CE004471FD /* Interface.storyboard */,
 				BA90A2FA1E0602CE004471FD /* Assets.xcassets */,
 				BA90A2FC1E0602CE004471FD /* Info.plist */,
@@ -316,7 +320,13 @@
 				TargetAttributes = {
 					BA90A2C91E0602CE004471FD = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = HJACLDTNRG;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					BA90A2DD1E0602CE004471FD = {
 						CreatedOnToolsVersion = 8.1;
@@ -330,7 +340,13 @@
 					};
 					BA90A2F11E0602CE004471FD = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 5VZ3VK8CQ5;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					BA90A3001E0602CE004471FD = {
 						CreatedOnToolsVersion = 8.1;
@@ -622,6 +638,8 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "count up app WatchKit App/count up app WatchKit App.entitlements";
+				DEVELOPMENT_TEAM = 5VZ3VK8CQ5;
 				IBSC_MODULE = count_up_app_WatchKit_Extension;
 				INFOPLIST_FILE = "count up app WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "Hiroki-Kameyaam.count-up-app.watchkitapp";
@@ -639,6 +657,8 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "count up app WatchKit App/count up app WatchKit App.entitlements";
+				DEVELOPMENT_TEAM = 5VZ3VK8CQ5;
 				IBSC_MODULE = count_up_app_WatchKit_Extension;
 				INFOPLIST_FILE = "count up app WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "Hiroki-Kameyaam.count-up-app.watchkitapp";
@@ -655,9 +675,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "count up app/count up app.entitlements";
+				DEVELOPMENT_TEAM = HJACLDTNRG;
 				INFOPLIST_FILE = "count up app/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Hiroki-Kameyaam.count-up-app";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hiroki-Kameyama.count-up-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -667,9 +689,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "count up app/count up app.entitlements";
+				DEVELOPMENT_TEAM = HJACLDTNRG;
 				INFOPLIST_FILE = "count up app/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Hiroki-Kameyaam.count-up-app";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hiroki-Kameyama.count-up-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -748,6 +772,7 @@
 				BA90A3111E0602CE004471FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BA90A3131E0602CE004471FD /* Build configuration list for PBXNativeTarget "count up app WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -756,6 +781,7 @@
 				BA90A3151E0602CE004471FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BA90A3171E0602CE004471FD /* Build configuration list for PBXNativeTarget "count up app" */ = {
 			isa = XCConfigurationList;
@@ -764,6 +790,7 @@
 				BA90A3191E0602CE004471FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BA90A31A1E0602CE004471FD /* Build configuration list for PBXNativeTarget "count up appTests" */ = {
 			isa = XCConfigurationList;
@@ -772,6 +799,7 @@
 				BA90A31C1E0602CE004471FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BA90A31D1E0602CE004471FD /* Build configuration list for PBXNativeTarget "count up appUITests" */ = {
 			isa = XCConfigurationList;
@@ -780,6 +808,7 @@
 				BA90A31F1E0602CE004471FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
